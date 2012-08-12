@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C004DC914F30B4800E286A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C004DC814F30B4800E286A4 /* UIKit.framework */; };
+		4C004DCB14F30B4800E286A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C004DCA14F30B4800E286A4 /* Foundation.framework */; };
+		4C004DCD14F30B4800E286A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C004DCC14F30B4800E286A4 /* CoreGraphics.framework */; };
+		4C004DD314F30B4800E286A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C004DD114F30B4800E286A4 /* InfoPlist.strings */; };
+		4C004DD514F30B4800E286A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C004DD414F30B4800E286A4 /* main.m */; };
+		4C004DD914F30B4800E286A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C004DD814F30B4800E286A4 /* AppDelegate.m */; };
+		4C004DDC14F30B4800E286A4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C004DDA14F30B4800E286A4 /* MainStoryboard_iPhone.storyboard */; };
+		4C004DDF14F30B4800E286A4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C004DDD14F30B4800E286A4 /* MainStoryboard_iPad.storyboard */; };
+		4C004DE914F30B6800E286A4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C004DE814F30B6800E286A4 /* CoreData.framework */; };
+		4C004DEC14F30DA600E286A4 /* RecipeBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C004DEA14F30DA600E286A4 /* RecipeBook.xcdatamodeld */; };
+		4C004DF814F3159100E286A4 /* RecipeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C004DF714F3159100E286A4 /* RecipeListViewController.m */; };
+		4C004DFB14F31C5100E286A4 /* RecipeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C004DFA14F31C5100E286A4 /* RecipeDetailsViewController.m */; };
+		4C48CFA715A39C38000C0EED /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48CFA615A39C38000C0EED /* Ingredient.m */; };
+		4C48CFAA15A39C38000C0EED /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48CFA915A39C38000C0EED /* Recipe.m */; };
+		4C48CFAD15A39C38000C0EED /* Review.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48CFAC15A39C38000C0EED /* Review.m */; };
+		4C77FB3815CEEEE20047F77A /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C77FB3715CEEEE20047F77A /* image.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C004DC414F30B4800E286A4 /* slowcook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slowcook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C004DC814F30B4800E286A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C004DCA14F30B4800E286A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C004DCC14F30B4800E286A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C004DD014F30B4800E286A4 /* slowcook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slowcook-Info.plist"; sourceTree = "<group>"; };
+		4C004DD214F30B4800E286A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C004DD414F30B4800E286A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C004DD614F30B4800E286A4 /* slowcook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slowcook-Prefix.pch"; sourceTree = "<group>"; };
+		4C004DD714F30B4800E286A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C004DD814F30B4800E286A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C004DDB14F30B4800E286A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4C004DDE14F30B4800E286A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4C004DE814F30B6800E286A4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C004DEB14F30DA600E286A4 /* RecipeBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecipeBook.xcdatamodel; sourceTree = "<group>"; };
+		4C004DF614F3159100E286A4 /* RecipeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListViewController.h; sourceTree = "<group>"; };
+		4C004DF714F3159100E286A4 /* RecipeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListViewController.m; sourceTree = "<group>"; };
+		4C004DF914F31C5100E286A4 /* RecipeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailsViewController.h; sourceTree = "<group>"; };
+		4C004DFA14F31C5100E286A4 /* RecipeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailsViewController.m; sourceTree = "<group>"; };
+		4C48CFA515A39C38000C0EED /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		4C48CFA615A39C38000C0EED /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		4C48CFA815A39C38000C0EED /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		4C48CFA915A39C38000C0EED /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		4C48CFAB15A39C38000C0EED /* Review.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Review.h; sourceTree = "<group>"; };
+		4C48CFAC15A39C38000C0EED /* Review.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Review.m; sourceTree = "<group>"; };
+		4C77FB3715CEEEE20047F77A /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = ../image.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C004DC114F30B4800E286A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C004DE914F30B6800E286A4 /* CoreData.framework in Frameworks */,
+				4C004DC914F30B4800E286A4 /* UIKit.framework in Frameworks */,
+				4C004DCB14F30B4800E286A4 /* Foundation.framework in Frameworks */,
+				4C004DCD14F30B4800E286A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C004DB914F30B4800E286A4 = {
+			isa = PBXGroup;
+			children = (
+				4C004DCE14F30B4800E286A4 /* slowcook */,
+				4C004DC714F30B4800E286A4 /* Frameworks */,
+				4C004DC514F30B4800E286A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C004DC514F30B4800E286A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C004DC414F30B4800E286A4 /* slowcook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C004DC714F30B4800E286A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C004DE814F30B6800E286A4 /* CoreData.framework */,
+				4C004DC814F30B4800E286A4 /* UIKit.framework */,
+				4C004DCA14F30B4800E286A4 /* Foundation.framework */,
+				4C004DCC14F30B4800E286A4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C004DCE14F30B4800E286A4 /* slowcook */ = {
+			isa = PBXGroup;
+			children = (
+				4C77FB3715CEEEE20047F77A /* image.jpg */,
+				4C004DD714F30B4800E286A4 /* AppDelegate.h */,
+				4C004DD814F30B4800E286A4 /* AppDelegate.m */,
+				4C004DEA14F30DA600E286A4 /* RecipeBook.xcdatamodeld */,
+				4C48CFAB15A39C38000C0EED /* Review.h */,
+				4C48CFAC15A39C38000C0EED /* Review.m */,
+				4C48CFA815A39C38000C0EED /* Recipe.h */,
+				4C48CFA915A39C38000C0EED /* Recipe.m */,
+				4C48CFA515A39C38000C0EED /* Ingredient.h */,
+				4C48CFA615A39C38000C0EED /* Ingredient.m */,
+				4C004DF614F3159100E286A4 /* RecipeListViewController.h */,
+				4C004DF714F3159100E286A4 /* RecipeListViewController.m */,
+				4C004DF914F31C5100E286A4 /* RecipeDetailsViewController.h */,
+				4C004DFA14F31C5100E286A4 /* RecipeDetailsViewController.m */,
+				4C004DDA14F30B4800E286A4 /* MainStoryboard_iPhone.storyboard */,
+				4C004DDD14F30B4800E286A4 /* MainStoryboard_iPad.storyboard */,
+				4C004DCF14F30B4800E286A4 /* Supporting Files */,
+			);
+			path = slowcook;
+			sourceTree = "<group>";
+		};
+		4C004DCF14F30B4800E286A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C004DD014F30B4800E286A4 /* slowcook-Info.plist */,
+				4C004DD114F30B4800E286A4 /* InfoPlist.strings */,
+				4C004DD414F30B4800E286A4 /* main.m */,
+				4C004DD614F30B4800E286A4 /* slowcook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C004DC314F30B4800E286A4 /* slowcook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C004DE514F30B4800E286A4 /* Build configuration list for PBXNativeTarget "slowcook" */;
+			buildPhases = (
+				4C004DC014F30B4800E286A4 /* Sources */,
+				4C004DC114F30B4800E286A4 /* Frameworks */,
+				4C004DC214F30B4800E286A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = slowcook;
+			productName = slowcook;
+			productReference = 4C004DC414F30B4800E286A4 /* slowcook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C004DBB14F30B4800E286A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = cocoacoda.com;
+			};
+			buildConfigurationList = 4C004DBE14F30B4800E286A4 /* Build configuration list for PBXProject "slowcook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C004DB914F30B4800E286A4;
+			productRefGroup = 4C004DC514F30B4800E286A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C004DC314F30B4800E286A4 /* slowcook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C004DC214F30B4800E286A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C004DD314F30B4800E286A4 /* InfoPlist.strings in Resources */,
+				4C004DDC14F30B4800E286A4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4C004DDF14F30B4800E286A4 /* MainStoryboard_iPad.storyboard in Resources */,
+				4C77FB3815CEEEE20047F77A /* image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C004DC014F30B4800E286A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C004DD514F30B4800E286A4 /* main.m in Sources */,
+				4C004DD914F30B4800E286A4 /* AppDelegate.m in Sources */,
+				4C004DEC14F30DA600E286A4 /* RecipeBook.xcdatamodeld in Sources */,
+				4C004DF814F3159100E286A4 /* RecipeListViewController.m in Sources */,
+				4C004DFB14F31C5100E286A4 /* RecipeDetailsViewController.m in Sources */,
+				4C48CFA715A39C38000C0EED /* Ingredient.m in Sources */,
+				4C48CFAA15A39C38000C0EED /* Recipe.m in Sources */,
+				4C48CFAD15A39C38000C0EED /* Review.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C004DD114F30B4800E286A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C004DD214F30B4800E286A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C004DDA14F30B4800E286A4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C004DDB14F30B4800E286A4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4C004DDD14F30B4800E286A4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C004DDE14F30B4800E286A4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C004DE314F30B4800E286A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C004DE414F30B4800E286A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C004DE614F30B4800E286A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "slowcook/slowcook-Prefix.pch";
+				INFOPLIST_FILE = "slowcook/slowcook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C004DE714F30B4800E286A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "slowcook/slowcook-Prefix.pch";
+				INFOPLIST_FILE = "slowcook/slowcook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C004DBE14F30B4800E286A4 /* Build configuration list for PBXProject "slowcook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C004DE314F30B4800E286A4 /* Debug */,
+				4C004DE414F30B4800E286A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C004DE514F30B4800E286A4 /* Build configuration list for PBXNativeTarget "slowcook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C004DE614F30B4800E286A4 /* Debug */,
+				4C004DE714F30B4800E286A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C004DEA14F30DA600E286A4 /* RecipeBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C004DEB14F30DA600E286A4 /* RecipeBook.xcdatamodel */,
+			);
+			currentVersion = 4C004DEB14F30DA600E286A4 /* RecipeBook.xcdatamodel */;
+			path = RecipeBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C004DBB14F30B4800E286A4 /* Project object */;
+}

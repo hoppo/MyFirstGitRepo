@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11D50b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Ingredient" representedClassName="Ingredient" syncable="YES">
+        <attribute name="ingredientMeasure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredientName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredientQuantity" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ingredientState" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="recipe" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" inverseName="ingredient" inverseEntity="Recipe" syncable="YES"/>
+    </entity>
+    <entity name="Recipe" representedClassName="Recipe" syncable="YES">
+        <attribute name="recipeCookTemp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipeCookTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipeDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipeIsAFavorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recipeIsFeatured" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recipeIsVegetarian" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recipePrepTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipeServings" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="recipeTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ingredient" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ingredient" inverseName="recipe" inverseEntity="Ingredient" syncable="YES"/>
+        <relationship name="review" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Review" inverseName="recipe" inverseEntity="Review" syncable="YES"/>
+    </entity>
+    <entity name="Review" representedClassName="Review" syncable="YES">
+        <attribute name="reviewRating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="reviewText" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="recipe" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" inverseName="review" inverseEntity="Recipe" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Ingredient" positionX="439" positionY="123" width="128" height="120"/>
+        <element name="Recipe" positionX="135" positionY="126" width="128" height="210"/>
+        <element name="Review" positionX="448" positionY="306" width="128" height="90"/>
+    </elements>
+</model>
