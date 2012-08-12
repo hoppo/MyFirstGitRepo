@@ -6,6 +6,8 @@
 //  Copyright (c) 2012 cocoacoda.com. All rights reserved.
 //
 
+//random comment (this line can be deleted anytime)
+
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
